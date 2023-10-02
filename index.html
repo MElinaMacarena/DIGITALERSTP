@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./estilos.css">
+
+</head>
+<body>
+     <form> 
+    
+        <legend><h1>Formulario de Inscripción</h1></legend>
+           <strong>Datos Personales</strong><br>
+           <br>
+        <label> Nombre: </label>
+        <input type="text" placeholder="nombre" maxlength="20" required>
+        <br><label> Apellido: </label>
+        <input type="text" placeholder="apellido" maxlength="20" required>
+        <br><label>Edad:</label>
+        <input type="number" min="1" max="100" required>
+        <br><label>Email:</label>
+        <input type="email" placeholder="info@ejemplo.com" required><br>
+        <label>Nacionalidad: </label>
+        <select>
+            <option value="Argentina"> Argentina </option>
+            <option value="Brasil"> Brasilera</option>
+            <option value="Chile"> Chilena</option>
+        </select>
+        <legend>Provincia</legend>
+        <select>
+            <option value="Entre Ríos"> Entre Ríos </option>
+            <option value="Santa Fe"> Santa Fe </option>
+            <option value="Buenos Aires"> Buenos Aires </option>
+            <option value="Otro"> Otro</option>
+        </select><br>
+        <label>Código Postal</label>
+        <input type="number" min="1" max="9999" required><br>
+       
+
+        <legend>Domicilio</legend>
+
+        <label> Calle: </label>
+        <input type="text" placeholder="nombre de calle">
+
+    
+        <br><label>Número</label>
+        <input type="number"><br>
+
+       <br> <legend>Género </legend>
+            <input type="radio" name="genero" value="Femenino"> Femenino
+            <input type="radio" name= "genero" value="Masculino"> Masculino
+            <input type="radio" name= "genero" value="Otro"> Otro
+
+     <br>
+    
+       
+    <br><legend>Nivel Académico</legend>
+    <input type="checkbox" name="Nivel Académico" value="Primario"> Primario
+    <input type="checkbox" name="Nivel Académico" value="Secundario"> Secundario
+    <input type="checkbox" name="Nivel Académico" value="Terciario"> Terciario<br>
+    <input type="checkbox" name="Nivel Académico" value="Universitario"> Universitario
+
+<br>
+<br>
+<fieldset>
+<legend>Curso al cual desea inscribirse</legend><br>
+<input type="radio" name="Curso al cual desea inscribirse" value="Fullstack Developer"> Programador Fullstack <br>
+<input type="radio" name="Curso al cual desea inscribirse" value="Data Science"> Data Science <br>
+<input type="radio" name="Curso al cual desea inscribirse" value="Tester QA"> Tester QA <br>
+
+</fieldset>
+</fieldset1><br>
+<br>
+
+<button><strong>ENVIAR</strong></button><br>
+<br>
+    </form>
+</body>
+</html>
+</body>
+</html>
